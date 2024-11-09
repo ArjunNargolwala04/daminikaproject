@@ -1,0 +1,50 @@
+/* General body styling */
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styling */
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+}
+
+/* Left panel (text content) styling */
+.left-panel, .right-panel {
+    width: 50%;
+    padding: 20px;
+}
+
+.left-panel {
+    text-align: left;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#reasons-list li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Right panel (canvas) styling */
+.right-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#flowersCanvas {
+    width: 100%;
+    height: 100%;
+}
